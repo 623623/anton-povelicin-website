@@ -1,0 +1,27 @@
+
+/* Header Section */
+
+video {
+  position: relative;
+  width: 100%;
+  height: 700px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(0, 0, 0, 0.6);
+  object-fit: cover;
+}
+.mask{
+  z-index: 1;
+  background-color: rgba(0, 0, 0, 0.6);
+  height: 755px;
+}
+
+.nav-container{
+  z-index: 5;
+}
+
+.resume-btn{
+  z-index: 1;
+  color: #fff;
+}
